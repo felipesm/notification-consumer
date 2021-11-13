@@ -1,6 +1,6 @@
 # Notification Consumer
 
-Aplicação usando Spring Web, Spring for RabbitMQ que faz consumo de mensagem para filas do RabbitMQ.
+Aplicação usando Spring Web, Spring for RabbitMQ que faz consumo de mensagens do RabbitMQ.
 
 ### Pré-Requisitos
 
@@ -18,7 +18,7 @@ Fazer o clone do projeto do github e importar na IDE:
 Executar o seguinte comando para fazer download da imagem do RabbitMQ:
 > $ docker run -d --hostname localhost --name rabbitmq -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
-Ao startar o container, você deverá ver as filas, exchanges, que foram criadas no projeto de [producer](https://github.com/felipesm/notification-producer.git).
+Ao startar o container, você deverá ver as filas, exchanges, que foram criadas no projeto [producer](https://github.com/felipesm/notification-producer.git).
 
 Para acessar a interface de gerenciamento do RabbitMQ utilizar a URL abaixo, digitando no seu usuário e senha **guest**.
 > http://localhost:15672/
